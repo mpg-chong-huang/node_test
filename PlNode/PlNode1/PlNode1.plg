@@ -1,0 +1,68 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: PlNode1 - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1.PC-\AppData\Local\Temp\RSP5DA3.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /FR"Release/" /Fp"Release/PlNode1.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Users\Administrator.PC-20120525VXKM\Desktop\三少组合第四任务复赛作品\工程文件\PlNode负荷节点工程\PlNode1\PlNodeServer1.c"
+]
+Creating command line "cl.exe @"C:\Users\ADMINI~1.PC-\AppData\Local\Temp\RSP5DA3.tmp"" 
+Creating temporary file "C:\Users\ADMINI~1.PC-\AppData\Local\Temp\RSP5DA4.tmp" with contents
+[
+wsock32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:no /pdb:"Release/PlNode1.pdb" /machine:I386 /out:"Release/PlNode1.exe" 
+".\Release\PlNodeServer1.obj"
+]
+Creating command line "link.exe @"C:\Users\ADMINI~1.PC-\AppData\Local\Temp\RSP5DA4.tmp""
+<h3>Output Window</h3>
+Compiling...
+PlNodeServer1.c
+C:\Users\Administrator.PC-20120525VXKM\Desktop\三少组合第四任务复赛作品\工程文件\PlNode负荷节点工程\PlNode1\PlNodeServer.h(60) : warning C4133: 'function' : incompatible types - from 'struct rec_ID_stack *' to 'struct Memory_Block *'
+C:\Users\Administrator.PC-20120525VXKM\Desktop\三少组合第四任务复赛作品\工程文件\PlNode负荷节点工程\PlNode1\PlNodeServer.h(122) : warning C4133: 'function' : incompatible types - from 'struct RBTNode *' to 'struct Memory_Block *'
+C:\Users\Administrator.PC-20120525VXKM\Desktop\三少组合第四任务复赛作品\工程文件\PlNode负荷节点工程\PlNode1\PlNodeServer.h(217) : warning C4133: 'function' : incompatible types - from 'struct RBTNode *' to 'struct Memory_Block *'
+C:\Users\Administrator.PC-20120525VXKM\Desktop\三少组合第四任务复赛作品\工程文件\PlNode负荷节点工程\PlNode1\PlNodeServer.h(311) : warning C4101: 'SA1' : unreferenced local variable
+Linking...
+Creating command line "bscmake.exe /nologo /o"Release/PlNode1.bsc"  ".\Release\PlNodeServer1.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+PlNode1.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: PlNode1 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1.PC-\AppData\Local\Temp\RSP5F79.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/PlNode1.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\Administrator.PC-20120525VXKM\Desktop\三少组合第四任务复赛作品\工程文件\PlNode负荷节点工程\PlNode1\PlNodeServer1.c"
+]
+Creating command line "cl.exe @"C:\Users\ADMINI~1.PC-\AppData\Local\Temp\RSP5F79.tmp"" 
+Creating temporary file "C:\Users\ADMINI~1.PC-\AppData\Local\Temp\RSP5F7A.tmp" with contents
+[
+wsock32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/PlNode1.pdb" /debug /machine:I386 /out:"Debug/PlNode1.exe" /pdbtype:sept 
+".\Debug\PlNodeServer1.obj"
+]
+Creating command line "link.exe @"C:\Users\ADMINI~1.PC-\AppData\Local\Temp\RSP5F7A.tmp""
+<h3>Output Window</h3>
+Compiling...
+PlNodeServer1.c
+c:\users\administrator.pc-20120525vxkm\desktop\三少组合第四任务复赛作品\工程文件\plnode负荷节点工程\plnode1\plnodeserver.h(60) : warning C4133: 'function' : incompatible types - from 'struct rec_ID_stack *' to 'struct Memory_Block *'
+c:\users\administrator.pc-20120525vxkm\desktop\三少组合第四任务复赛作品\工程文件\plnode负荷节点工程\plnode1\plnodeserver.h(122) : warning C4133: 'function' : incompatible types - from 'struct RBTNode *' to 'struct Memory_Block *'
+c:\users\administrator.pc-20120525vxkm\desktop\三少组合第四任务复赛作品\工程文件\plnode负荷节点工程\plnode1\plnodeserver.h(217) : warning C4133: 'function' : incompatible types - from 'struct RBTNode *' to 'struct Memory_Block *'
+c:\users\administrator.pc-20120525vxkm\desktop\三少组合第四任务复赛作品\工程文件\plnode负荷节点工程\plnode1\plnodeserver.h(311) : warning C4101: 'SA1' : unreferenced local variable
+Linking...
+
+
+
+<h3>Results</h3>
+PlNode1.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
